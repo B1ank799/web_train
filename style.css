@@ -156,7 +156,7 @@
 .terminal-content .success { color: #83dfba; }
 .terminal-divider { height: 1px; background: #819ab522; margin: 18px 0; }
 .cover-meta { position: absolute; bottom: 48px; left: 54px; font: 11px monospace; color: #8194ad; letter-spacing: .08em; }
-.deck-footer { position: absolute; z-index: 20; left: 54px; right: 54px; bottom: 18px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #9cb2cf1c; padding-top: 9px; color: #8596af; font: 9px monospace; letter-spacing: .12em; pointer-events: none; }
+.deck-footer { position: absolute; z-index: 20; left: 54px; right: 54px; bottom: 18px; display: flex; justify-content: flex-end; align-items: center; border-top: 1px solid #9cb2cf1c; padding-top: 9px; color: #8596af; font: 9px monospace; letter-spacing: .12em; pointer-events: none; }
 .flow-diagram > .rounded-xl { flex: 1; min-height: 132px; display: flex; flex-direction: column; justify-content: center; }
 .flow-diagram > .text-2xl { font-size: 30px; opacity: .8; }
 .slidev-layout.center { background: radial-gradient(ellipse at 50% 45%, #1d3a5366, transparent 65%), #0b1220; }

@@ -40,7 +40,7 @@ fonts:
 </div>
 </div>
 </div>
-<div class="cover-meta">b1ank / 2026.10.18</div>
+<div class="cover-meta">b1ank / 2026.10.16</div>
 
 <!--
 一小时课程。课前：讲师准备 PHP，学生准备 Yakit 与 Chrome。讲师备用本地示例，外网不可用时仍可完成讲解。
@@ -195,9 +195,9 @@ layout: section
 
 <div class="text-sm tracking-widest opacity-40 mb-4">PART 02 </div>
 
-# 什么是 HTTP
+#  HTTP
 
-<div class="mt-6 opacity-60">先看请求，再看响应</div>
+<div class="mt-6 opacity-60">请求与响应</div>
 
 <!--
 第 17 分钟。提醒以下使用 HTTP/1.1 文本形式讲解，工具可能把其他版本流量展示为类似形式。
@@ -207,7 +207,7 @@ layout: section
 layout: default
 ---
 
-# 请求报文：浏览器在说什么？
+# 请求报文
 
 ```http
 GET /index.php?name=Alice HTTP/1.1
@@ -528,11 +528,7 @@ layout: center
 
 <h1 class="!text-4xl !font-semibold !m-0 tracking-wide">谢谢观看</h1>
 
-<div class="mt-6 text-sm tracking-[0.3em] uppercase opacity-40">构建 · 通信 · 抓取 · 分析</div>
-
-<div class="mt-10 text-sm opacity-60">结束前：恢复浏览器代理，停止本地演示服务。</div>
-
-<div class="mt-16 text-xs opacity-30 font-mono">b1ank · 2026.10.18</div>
+<div class="mt-16 text-xs opacity-30 font-mono">b1ank · 2026.10.16</div>
 
 <!--
 第 59–60 分钟。提醒恢复代理；补充资料：Yakit 官方 MITM 使用文档 https://yaklang.io/products/chapter-3/3-2/ 。
